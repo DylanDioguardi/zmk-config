@@ -49,14 +49,6 @@
   flavor = "tap-preferred";
   tapping-term-ms = <190>;
 };
-shift_caps: shift_caps {
-    compatible = "zmk,behavior-hold-tap";
-    #binding-cells = <2>;
-    flavor = "tap-preferred";
-    tapping-term-ms = <190>;
-    quick-tap-ms = <60>;
-    bindings = <&kp>, <&kp>;
-};
 
 / {
 //   behaviors {
@@ -84,7 +76,7 @@ shift_caps: shift_caps {
         combo_lshift {
             timeout-ms = <60>;
             key-positions = <11 12>; // S + D
-            bindings = <&shift_caps LSHFT CAPS>;
+            bindings = <&mt LSHFT CAPS>;
         };
 
         combo_mo_nav_2 {
@@ -96,7 +88,7 @@ shift_caps: shift_caps {
         combo_rshift {
             timeout-ms = <60>;
             key-positions = <17 18>; // K + L
-            bindings = <&shift_caps RSHFT CAPS>;
+            bindings = <&mt RSHFT CAPS>;
         };
 
         combo_mo_sym {
