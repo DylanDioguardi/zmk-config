@@ -196,10 +196,10 @@ label= "NAV"                               ;
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
-                &kp MINUS      &kp N1      &kp N2      &kp N3      &kp PSCRN         &kp JP_RBRACE      &kp JP_LBRACE   &kp JP_EQUAL    &kp JP_TILDE   &kp JP_TILDE 
-                &mo FN      &kp N4      &kp N5      &kp N6      &kp N0                     &kp JP_RPAREN      &kp JP_LPAREN   &kp MINUS    &kp JP_UNDERSCORE   &kp JP_PLUS 
-    &mt LCTRL TAB     &kp JP_ASTERISK      &kp N7      &kp N8      &kp N9      &kp DOT           &kp C_VOLUME_UP    &kp JP_LBRACKET      &kp LESS_THAN &kp GREATER_THAN    &kp INT_YEN  &kp RGUI 
-                                        &kp C_PLAY_PAUSE      &trans      &kp SPACE        &kp RET            &kp ESC            &kp DELETE
+                &kp MINUS      &kp N1      &kp N2      &kp N3      &kp PSCRN              &kp JP_LBRACE      &kp JP_RBRACE       &kp JP_EQUAL    &kp JP_TILDE   &kp JP_TILDE 
+                &mo FN      &kp N4      &kp N5      &kp N6      &kp N0                    &kp JP_LPAREN      &kp JP_RPAREN       &kp MINUS    &kp JP_UNDERSCORE   &kp JP_PLUS 
+    &mt LCTRL TAB     &kp JP_ASTERISK      &kp N7      &kp N8      &kp N9      &kp DOT    &kp JP_LBRACKET    &kp JP_RBRACKET      &kp LESS_THAN &kp GREATER_THAN    &kp INT_YEN  &kp RGUI 
+                                        &kp C_PLAY_PAUSE      &trans      &kp SPACE       &kp RET            &kp ESC            &kp DELETE
             >;
         };
 
