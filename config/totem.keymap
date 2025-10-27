@@ -73,22 +73,10 @@
             bindings = <&mo NAV>;
         };
 
-        combo_lshift {
-            timeout-ms = <60>;
-            key-positions = <11 12>; // S + D
-            bindings = <&mt LSHFT CAPS>;
-        };
-
         combo_mo_nav_2 {
             timeout-ms = <60>;
             key-positions = <12 13>; // D + F
             bindings = <&mo NAV>;
-        };
-
-        combo_rshift {
-            timeout-ms = <60>;
-            key-positions = <17 18>; // K + L
-            bindings = <&mt RSHFT CAPS>;
         };
 
         combo_mo_sym {
@@ -99,13 +87,25 @@
 
         combo_esc_xc {
             timeout-ms = <55>;
-            key-positions = <22 23>; // X + C
+            key-positions = <11 12>; // X + C swapped with lshift
             bindings = <&kp ESC>;
+        };
+
+        combo_lshift {
+            timeout-ms = <60>;
+            key-positions = <22 23>; // S + D
+            bindings = <&mt LSHFT CAPS>;
+        };
+
+        combo_rshift {
+            timeout-ms = <60>;
+            key-positions = <28 29>; // K + L swapped with colon
+            bindings = <&mt RSHFT CAPS>;
         };
 
         combo_colon_,. {
             timeout-ms = <55>;
-            key-positions = <28 29>; // X + C
+            key-positions = <17 18>; // X + C
             bindings = <&kp JP_COLON>;
         };
 
